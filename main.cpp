@@ -1,6 +1,6 @@
 #include "D:/PHAGE/systemclass.h"
 
-int WinAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdLine, int iCMDShow)
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR pScmdLine, int iCMDShow)
 {
     //Initializing the system class object and result boolean value
     SystemClass* System;

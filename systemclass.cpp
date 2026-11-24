@@ -147,7 +147,7 @@ LRESULT CALLBACK SystemClass::MessageHandler(HWND hwnd, UINT umsg, WPARAM wparam
     switch(umsg)
     {
         //check for key that was pressed
-        case WM_KEYDOWN;
+        case WM_KEYDOWN:
         {
             //if key was pressed then sending to input object to record it
             m_Input->KeyDown((unsigned int)wparam);
